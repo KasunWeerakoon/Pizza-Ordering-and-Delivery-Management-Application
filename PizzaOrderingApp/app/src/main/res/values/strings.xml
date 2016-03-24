@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PizzaOrder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_pizza_category">PizzaCategory</string>
+    <string name="title_activity_list_generator">ListGenerator</string>
+    <string name="title_activity_add_extra">AddExtra</string>
+
+    <string-array name="sizes">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="topping1">
+        <item>-Please select-</item>
+        <item>Beef Pepperoni</item>
+        <item>Bellpepper</item>
+        <item>BlackOlives</item>
+        <item>Capsicum</item>
+        <item>Cheese</item>
+        <item>Chicken Ham</item>
+        <item>Mushroom</item>
+        <item>Onion</item>
+        <item>Pineapple</item>
+        <item>Prawn</item>
+        <item>Tandoori Chicken</item>
+        <item>Tomato</item>
+    </string-array>
+
+    <string name="title_activity_ddrecycler_adaptor">DDRecyclerAdaptor</string>
+    <string name="title_activity_cart">Cart</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_notify">NotifyActivity</string>
+    <string name="title_activity_rating">RatingActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+</resources>

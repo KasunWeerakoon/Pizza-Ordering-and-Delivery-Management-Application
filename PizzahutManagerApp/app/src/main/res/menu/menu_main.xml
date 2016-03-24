@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/new_order_item"
+        android:icon="@drawable/ios7email"
+        android:title="New"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/processing_order_item"
+        android:icon="@drawable/loop"
+        android:title="Processing"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/completed_order_item"
+        android:icon="@drawable/clipboard"
+        android:title="Completed"
+        app:showAsAction="always"/>
+
+
+
+
+    <!--item
+        android:id="@+id/completed_order_item"
+        android:icon="@drawable/ic_launcher"
+        android:title="Grid View"
+        app:showAsAction="always"/-->
+
+    <item android:id="@+id/action_dilman" android:title="Riders Management"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        android:orderInCategory="200"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbarriderm"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/red5"
+        android:gravity="center|top"
+        android:layout_alignParentTop="true"
+        >
+
+    </android.support.v7.widget.Toolbar>
+     <TextView
+         android:id="@+id/name"
+         android:layout_width="100dp"
+         android:layout_height="wrap_content"
+         android:layout_margin="20dp"
+         android:text="Name :"
+         android:textColor="@android:color/black"
+         android:textSize="16dp"
+         android:layout_below="@id/toolbarriderm"
+         android:layout_alignBaseline="@id/toolbarriderm"/>
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="22dp"
+        android:background="@color/red5"
+        android:textColor="@android:color/white"
+        android:text="Remove Rider"
+       	android:layout_margin="20dp" />
+
+    <TextView
+        android:id="@+id/naemtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/name"
+        android:layout_alignBottom="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:text="Refreshing"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" />
+    
+     <TextView
+         android:id="@+id/uname"
+         android:layout_width="100dp"
+         android:layout_below="@id/name"
+         android:layout_height="wrap_content"
+         android:layout_margin="20dp"
+         android:text="Username :"
+         android:textColor="@android:color/black"
+         android:textSize="16dp" />
+     <TextView
+        android:id="@+id/unaemtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/uname"
+        android:layout_alignBottom="@+id/uname"
+        android:layout_centerHorizontal="true"
+        android:text="Refreshing"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" />
+      <TextView
+         android:id="@+id/nic"
+         android:layout_width="100dp"
+         android:layout_below="@id/uname"
+         android:layout_height="wrap_content"
+         android:layout_margin="20dp"
+         android:text="NIC :"
+         android:textColor="@android:color/black"
+         android:textSize="16dp" />
+     <TextView
+        android:id="@+id/nictext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nic"
+        android:layout_alignBottom="@+id/nic"
+        android:layout_centerHorizontal="true"
+        android:text="Refreshing"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" />
+      <TextView
+         android:id="@+id/phone"
+         android:layout_width="100dp"
+         android:layout_below="@id/nic"
+         android:layout_height="wrap_content"
+         android:layout_margin="20dp"
+         android:text="Phone :"
+         android:textColor="@android:color/black"
+         android:textSize="16dp" />
+     <TextView
+        android:id="@+id/phonetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/phone"
+        android:layout_alignBottom="@+id/phone"
+        android:layout_centerHorizontal="true"
+        android:text="Refreshing"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" />
+      <TextView
+         android:id="@+id/status"
+         android:layout_width="100dp"
+         android:layout_below="@id/phone"
+         android:layout_height="wrap_content"
+         android:layout_margin="20dp"
+         android:text="Status :"
+         android:textColor="@android:color/black"
+         android:textSize="16dp" />
+     <TextView
+        android:id="@+id/statustext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/status"
+        android:layout_alignBottom="@+id/status"
+        android:layout_centerHorizontal="true"
+        android:text="Refreshing"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" />
+      <TextView
+         android:id="@+id/rating"
+         android:layout_width="100dp"
+         android:layout_below="@id/status"
+         android:layout_height="wrap_content"
+         android:layout_margin="20dp"
+         android:text="Rating :"
+         android:textColor="@android:color/black"
+         android:textSize="16dp" />
+     <TextView
+        android:id="@+id/ratingtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/rating"
+        android:layout_alignBottom="@+id/rating"
+        android:layout_centerHorizontal="true"
+        android:text="Refreshing"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" />
+      <TextView
+         android:id="@+id/delivery"
+         android:layout_width="100dp"
+         android:layout_below="@id/rating"
+         android:layout_height="wrap_content"
+         android:layout_margin="20dp"
+         android:text="Delivery :"         
+         android:textColor="@android:color/black"
+         android:textSize="16dp" />
+     <TextView
+        android:id="@+id/deliverytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/delivery"
+        android:layout_alignBottom="@+id/delivery"
+        android:layout_centerHorizontal="true"
+        android:text="Refreshing"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" />
+
+</RelativeLayout>

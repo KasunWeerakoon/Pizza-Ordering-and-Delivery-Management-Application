@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbarrider_add"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/red5"
+        android:gravity="center|top"
+        android:layout_alignParentTop="true"
+        >
+
+    </android.support.v7.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/txtnotification"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbarrider_add"
+        android:text="Fill the Details below"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/cream2"/>
+
+    <EditText
+        android:id="@+id/nameadd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txtnotification"
+        android:layout_centerHorizontal="true"
+        android:hint="First Name"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" />
+    <EditText
+        android:id="@+id/lastnammeadd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+android:layout_margin="10dp"
+        android:layout_below="@id/nameadd"
+        android:layout_centerHorizontal="true"
+        android:hint="Last Name"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/unameadd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@id/lastnammeadd"
+        android:layout_centerHorizontal="true"
+        android:hint="User Name"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" />
+
+
+    <EditText
+        android:id="@+id/passsadd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+android:layout_margin="10dp"
+        android:layout_below="@id/unameadd"
+        android:layout_centerHorizontal="true"
+        android:hint="Password"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/conpassadd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@id/passsadd"
+        android:layout_centerHorizontal="true"
+        android:hint="Confirm Password"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/nicadd"
+        android:layout_width="fill_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/conpassadd"
+        android:layout_centerHorizontal="true"
+        android:hint="NIC Number"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" />
+    <EditText
+        android:id="@+id/phoneadd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+android:layout_margin="10dp"
+        android:layout_below="@id/nicadd"
+        android:layout_centerHorizontal="true"
+        android:hint="Phone Number"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" />
+
+
+
+    <Button
+        android:id="@+id/removeadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="22dp"
+        android:background="@color/red5"
+        android:textColor="@android:color/white"
+        android:text="Remove Rider"
+        android:layout_margin="20dp" />
+</RelativeLayout>
