@@ -1,4 +1,4 @@
 # Pizza-Ordering-and-Delivery-Management-Application
 
 Pizza Ordering App
-![alt tag](blob:https%3A//drive.google.com/22a342ea-acff-4bc8-bc63-b2aa468561e7)
+![screenshot1](https://cloud.githubusercontent.com/assets/11568137/14499657/cc2eab40-01bc-11e6-8836-e864776a14f6.png)
